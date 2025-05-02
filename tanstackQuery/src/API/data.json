@@ -1,0 +1,26 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "tags": ["history","crime"] },
+    { "id": "2", "title": "another title", "tags": ["english","french","spanish"] },
+    { "id": "3", "title": "in the era of AI", "tags": ["AI","fast pacing world","upgrade"] },
+    { "id": "4", "title": "uncertainity", "tags": ["happy","sad","emotional"] },
+    { "id": "5", "title": "a title", "tags": ["history1","crime2"] },
+    { "id": "6", "title": "another title", "tags": ["english2","french2","spanish2"] },
+    { "id": "7", "title": "in the era of AI", "tags": ["AI1","fast pacing world2","upgrade2"] },
+    { "id": "8", "title": "uncertainity", "tags": ["happy2","sad2","emotional2"] },
+    { "id": "9", "title": "a title", "tags": ["history2","crime3"] },
+    { "id": "10", "title": "another title", "tags": ["english3","french3","spanish3"] }
+  ],
+  "tags": [
+   "tag one",
+   "tag two",
+    "tag three",
+    "tag four",
+    "tag five",
+    "tag six",
+    "tag seven",
+    "tag eight",
+    "tag nine",
+    "tag ten"
+  ]
+}

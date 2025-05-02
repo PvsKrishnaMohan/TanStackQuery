@@ -1,0 +1,57 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+
+  border:1px solid black;
+  margin:20px;
+  border-radius: 10px;
+}
+.post{
+  background-color: rgb(210, 236, 210);
+  gap:5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin:5px
+}
+.post > span{
+  background-color: rgb(243, 240, 192);
+  padding:2px 8px 4px 8px;
+  margin-left: 10px;
+}
+
+.container >form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+}
+
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.checkBoxContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
