@@ -26,6 +26,14 @@ const PostsData = () => {
   } = useMutation({
     mutationFn: addPost,
   });
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const title =formData.get("title");
+    const tags = Array.from(formData.keys()).filter((key)=> formData.get(key) === "on");
+    console.log(title,tags);
+  }
   return (
     <div className="container">
       <h1>Posts Data</h1>
@@ -35,8 +43,8 @@ const PostsData = () => {
 
       {isTagsLoading && <h2>Loading Tags...</h2>}
       {isTagsError && <h2>{isTagsError?.message}</h2>}
-      <form >
-        <input type="text" placeholder="add Text" name="tags" />
+      <form onSubmit={handleFormSubmit}>
+        <input type="text" name = "title" placeholder="add Text" />
         <div className="checkBoxContainer">
         {
            tagData?.map((eachTag) => {
